@@ -6,8 +6,10 @@ import { Box } from '@mui/material';
 import './App.css';
 import ExerciseDetail from './pages/ExerciseDetail';
 import Home from './pages/Home';
+import BmiCalculator from './pages/BmiCalculator';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import ExerciseCounter from './pages/ExerciseCounter';
 
 const App = () => {
     return (
@@ -16,6 +18,8 @@ const App = () => {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/exercise/:id" element={<ExerciseDetail />} />
+                <Route path="/BmiCalculator" element={<BmiCalculator />} />
+                <Route path="/ExerciseCounter" element={<ExerciseCounter />} />
             </Routes>
             <Footer />
         </Box>

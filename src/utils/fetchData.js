@@ -5,6 +5,23 @@ export const exerciseOptions = {
         'X-RapidAPI-Host': 'exercisedb.p.rapidapi.com'
     }
 };
+export const youtubeOptions = {
+    method: 'GET',
+    headers: {
+        'X-RapidAPI-Key': '5f049f8255msh81edac4cd578244p12d4c0jsn6d5574b536a2',
+        'X-RapidAPI-Host': 'youtube-search-and-download.p.rapidapi.com'
+    }
+};
+
+export const BMIOptions = {
+    method: 'GET',
+    headers: {
+        'X-RapidAPI-Key': '5f049f8255msh81edac4cd578244p12d4c0jsn6d5574b536a2',
+        'X-RapidAPI-Host': 'fitness-calculator.p.rapidapi.com'
+    }
+};
+
+
 
 export const fetchData = async (url, options) => {
     const response = await fetch(url, options);
