@@ -16,10 +16,10 @@ const Navbar = () => {
             <Stack
                 direction="row"
                 gap="40px"
-                fontSize={"24px"}
+                fontSize={"22px"}
                 alignItems="flex-end"
             >
-                <Link to="/" style={{ textDecoration: 'none', color: '#3A1212', borderBottom: '3px solid #FF2625' }}>Home</Link>
+                <Link to="/" style={{ textDecoration: 'none', color: '#3A1212' }}>Home</Link>
                 <a href="#exercises"
                     style={
                         {
@@ -27,7 +27,7 @@ const Navbar = () => {
                             color: '#3A1212'
                         }}>Exercises</a>
                 <Link to="/BmiCalculator" style={{ textDecoration: 'none', color: '#3A1212' }}>BMI</Link>
-                <Link to="/ExerciseCounter" style={{ textDecoration: 'none', color: '#3A1212' }}>Counter</Link>
+                <Link to="/ExerciseCounter" style={{ textDecoration: 'none', color: '#3A1212', borderBottom: '3px solid #FF2625' }}>Pose-Corrector</Link>
             </Stack>
         </Stack>
     )

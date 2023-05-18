@@ -46,9 +46,9 @@ const BmiCalculator = () => {
                 <Stack p="80px" gap="30px" backgroundColor="#fff3f4" width="90%" margin="auto" mt="100px">
                     <Typography variant="h3">BMI Results</Typography>
                     <Box>
-                        <Typography variant="h5">BMI: <span style={{ color: '#ffb700', fontWeight: "600", fontSize: "40px" }}>{BMI}</span></Typography>
+                        <Typography variant="h5">BODY-MASS INDEX: <span style={{ color: '#ffb700', fontWeight: "600", fontSize: "40px" }}>{BMI}</span></Typography>
                         <Typography variant="h5">HEALTH: <span style={{ color: '#ffb700', fontWeight: "600", fontSize: "40px" }}>{health}</span></Typography>
-                        <Typography variant="h5">HEALTH_BMI_RANGE: <span style={{ color: '#ffb700', fontWeight: "600", fontSize: "40px" }}>{healthyBmiRange}</span></Typography>
+                        <Typography variant="h5">HEALTHY BMI RANGE: <span style={{ color: '#ffb700', fontWeight: "600", fontSize: "40px" }}>{healthyBmiRange}</span></Typography>
                     </Box>
                 </Stack>
             }
